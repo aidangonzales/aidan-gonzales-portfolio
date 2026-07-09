@@ -23,10 +23,10 @@ export const siteConfig = {
   location: "Austin, TX",
   resumeUrl: "/resume.pdf", // Place your PDF in the public/ folder
   // Used for metadataBase and absolute OG image URLs. Update to your deployed domain.
-  url: "https://your-domain.com",
+  url: "https://www.aidangonzales.com/",
   socials: {
-    github: "https://github.com/aidan-gonzales",
-    linkedin: "https://www.linkedin.com/in/aidan-gonzales/",
+    github: "https://github.com/aidangonzales",
+    linkedin: "https://www.linkedin.com/in/aidangonzales/",
   },
 } as const;
 
