@@ -1,4 +1,0 @@
-The University of Texas at Austin - Austin, TX (Fall 2024 - Spring 2028)
- - Relevant Coursework -  Computer Architecture, Real-Time Operating Systems, Embedded Systems, Digital Logic and Design
- - Planned Coursework, Fall 2026 - VLSI, Embedded Systems Lab
- - Overall GPA - 3.984
