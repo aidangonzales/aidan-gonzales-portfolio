@@ -1,26 +1,93 @@
 @import "tailwindcss";
 
+/*
+ * Tailwind v4 theme configuration.
+ * Design tokens are defined here as CSS variables and exposed to Tailwind
+ * utilities via the `@theme` block (e.g. `bg-accent`, `text-muted`).
+ */
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
+  --foreground: #0a0a0a;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --muted: #6b7280; /* zinc-500-ish secondary text */
+  --surface: #f8f8f8; /* subtle card / section background */
+  --border: #e5e7eb;
+
+  /* UT Austin burnt orange accent */
+  --accent: #bf5700;
+  --accent-foreground: #ffffff;
+  --accent-hover: #a34900;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+
+    --muted: #9ca3af;
+    --surface: #141414;
+    --border: #262626;
+
+    --accent: #ff7a1a;
+    --accent-foreground: #0a0a0a;
+    --accent-hover: #ff8f3d;
   }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-hover: var(--accent-hover);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Offset anchor scrolling so headings aren't hidden behind the sticky header */
+  scroll-padding-top: 5rem;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/*
+ * Global accessible focus ring.
+ * Applies to any keyboard-focusable element that doesn't define its own
+ * focus-visible styling (links, buttons, inputs). Uses the accent color and
+ * follows the element's border-radius in modern browsers.
+ */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 0.25rem;
+}
+
+/* Respect users who prefer reduced motion (important once animations are added) */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

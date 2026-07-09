@@ -1,0 +1,36 @@
+[
+  {
+    "id": "longhorn-rocketry-member",
+    "role": "Electronics Team Member",
+    "company": "Longhorn Rocketry Association",
+    "dateRange": "Fall 2025 - Present",
+    "bullets": [
+      "Conducting component selection, schematic design, and layout review to meet all constraints",
+      "Working with the electronics team to establish efficient communication between the flight computer and the ground station",
+      "Working within the flight computer team to design, create, and fully test the flight computer prior to launch"
+    ]
+  },
+  {
+    "id": "emerson-intern",
+    "role": "Embedded Software Development Intern",
+    "company": "Emerson Electric",
+    "dateRange": "Summer 2026",
+    "bullets": [
+      "Intern on the Controller scrum team that writes industry-standard software for Emerson's DeltaV controllers",
+      "Migrated controller build environment from Windows to Linux using containerization (Docker) in WSL",
+      "Improved controller build times by 82.5%, reducing build times from ~40 minutes to ~7 minutes"
+    ]
+  },
+  {
+    "id": "longhorn-rocketry-lead",
+    "role": "Electronics Team Lead",
+    "company": "Longhorn Rocketry Association",
+    "dateRange": "Summer 2026 - Present",
+    "bullets": [
+      "Architecting the electronics bay and the ground station",
+      "Conducting schematic and PCB layout reviews, ensuring the team stays on track and complies with competition constraints",
+      "Working with the hardware design team to define physical constraints for the electronics bay",
+      "Managing task delegation, timelines, and budget for the team"
+    ]
+  }
+]

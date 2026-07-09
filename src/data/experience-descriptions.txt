@@ -1,0 +1,20 @@
+The University of Texas at Austin - Austin, TX (Fall 2024 - Spring 2028)
+ - Relevant Coursework -  Computer Architecture, Real-Time Operating Systems, Embedded Systems, Digital Logic and Design
+ - Planned Coursework, Fall 2026 - VLSI, Embedded Systems Lab
+ - Overall GPA - 3.984
+
+Longhorn Rocketry Association - Electronics Team Member (Fall 2025 - Present)
+ - Conducting component selection, schematic design, and layout review to meet all constraints
+ - Working with the electronics team to establish efficient communication between the flight computer and the ground station
+ - Working within the flight computer team to design, create, and fully test the flight computer prior to launch
+
+Emerson Electric - Embedded Software Development Intern (Summer 2026)
+ - Intern on the Controller scrum team that writes industry-standard software for Emerson's DeltaV controllers
+ - Migrated controller build environment from Windows to Linux using containerization (Docker) in WSL
+ - Improved controller build times by 82.5%, going from ~40 minute build times to ~7 minute build times
+
+Longhorn Rocketry Association - Electronics Team Lead (Summer 2026 - Present)
+ - Architecting the electronics bay and the ground station
+ - Conducting schematic and PCB layout reviews, ensuring the team stays on track and complies with the constraints of the competition
+ - Working with the hardware design team to define physical constraints for the electronics bay
+ - Managing task delegation, timelines, and a budget for the team

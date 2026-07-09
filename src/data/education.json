@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ut-austin",
+    "university": "The University of Texas at Austin",
+    "location": "Austin, TX",
+    "dateRange": "Fall 2024 - Spring 2028",
+    "degree": "Bachelor of Science in Electrical & Computer Engineering",
+    "gpa": "3.984",
+    "relevantCoursework": [
+      "Computer Architecture",
+      "Real-Time Operating Systems",
+      "Embedded Systems",
+      "Digital Logic and Design"
+    ],
+    "plannedCoursework": [
+      "VLSI",
+      "Embedded Systems Lab"
+    ]
+  }
+]
