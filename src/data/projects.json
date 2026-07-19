@@ -4,7 +4,7 @@
     "title": "LiDAR-based Camera Autofocus System",
     "description": "A custom autofocus system for a Sony a6700 camera using a DToF LiDAR sensor, ESP32, and WiFi communication with FreeRTOS. Implemented advanced filtering techniques and reverse-engineered Sony's communication protocol to enable reliable autofocus. Employed RTOS-compliant practices for task management, synchronization, and resource optimization.",
     "techStack": ["ESP32", "FreeRTOS", "C/C++", "DToF LiDAR", "WiFi", "Real-Time Systems"],
-    "githubLink": "https://github.com/your-handle/lidar-autofocus",
+    "githubLink": "https://github.com/aidangonzales/lidar-based-autofocus",
     "demoLink": "",
     "featured": false
   },
@@ -13,7 +13,7 @@
     "title": "Custom Flight Computer",
     "description": "Designed and tested a 4-layer STM32-based flight computer PCB in KiCad for a competition rocket. Responsible for microcontroller interfacing, sensor integration, and power management. Defined SPI, UART, and I2C communication protocols for data transfer between components and other subsystems.",
     "techStack": ["STM32", "KiCad", "PCB Design", "Microcontroller", "SPI/UART/I2C", "Power Management"],
-    "githubLink": "https://github.com/your-handle/flight-computer",
+    "githubLink": "https://github.com/Anish-Agarwall/LRA-Electronics/tree/flight-computer/V1-Flight-Computer-main/V1-Flight-Computer-main",
     "demoLink": "",
     "featured": false
   },
@@ -22,7 +22,7 @@
     "title": "Closed-Course Autonomous RC Car",
     "description": "An autonomous RC car that navigates walled courses and overtakes competitors without human intervention. Integrated TFLuna LiDAR and IR sensors for obstacle detection, implemented PD control loops for motor and steering actuation, and coordinated communication between dual microcontrollers via a custom CAN network.",
     "techStack": ["MSPM0", "TFLuna LiDAR", "CAN Bus", "PD Control", "Custom RTOS", "C"],
-    "githubLink": "https://github.com/your-handle/autonomous-rc-car",
+    "githubLink": "https://github.com/micade145/ECE445M_Robot/tree/main",
     "demoLink": "",
     "featured": false
   },
@@ -31,7 +31,7 @@
     "title": "Fully-Pipelined LC-3 Processor Simulation",
     "description": "A 5-stage pipelined software simulation of the LC-3 microprocessor architecture, accurately modeling clock-cycle timing and state transitions. Implemented data and control hazard handling through data-forwarding and intelligent stalling to ensure correct instruction execution.",
     "techStack": ["C", "Computer Architecture", "Pipeline Simulation", "Processor Design"],
-    "githubLink": "https://github.com/your-handle/lc3-pipeline-processor",
+    "githubLink": "https://github.com/aidangonzales/ECE-460N/tree/main/lab6",
     "demoLink": "",
     "featured": false
   },
@@ -40,7 +40,7 @@
     "title": "Microcontroller Video Game: Zelda Recreation",
     "description": "A recreation of The Legend of Zelda on a microcontroller-based system with 2700+ lines of custom C++ code. Designed and interfaced all hardware and software components including custom graphics drivers and PCB layout. Won 1st place in class-wide competition.",
     "techStack": ["C++", "Microcontroller", "Custom Graphics", "PCB Design", "Hardware/Software Integration"],
-    "githubLink": "https://github.com/your-handle/zelda-microcontroller",
+    "githubLink": "https://github.com/aidangonzales/ECE-319H/tree/main/ECE319K_Lab9H",
     "demoLink": "",
     "featured": false
   },
