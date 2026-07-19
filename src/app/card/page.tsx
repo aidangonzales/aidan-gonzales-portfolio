@@ -7,5 +7,6 @@ import { redirect } from "next/navigation";
  * the redirect target here without reprogramming the card.
  */
 export default function CardRedirect() {
-  redirect("/");
+  //redirect("/");
+  redirect("https://www.wikipedia.org");
 }
