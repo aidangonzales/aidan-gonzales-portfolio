@@ -20,7 +20,7 @@
   {
     "id": "autonomous-rc-car",
     "title": "Closed-Course Autonomous RC Car",
-    "description": "An autonomous RC car that navigates walled courses and overtakes competitors without human intervention. Integrated TFLuna LiDAR and IR sensors for obstacle detection, implemented PD control loops for motor and steering actuation, and coordinated communication between dual microcontrollers via a custom CAN network.",
+    "description": "An autonomous RC car that navigates walled courses and overtakes competitors without human intervention. Integrated TFLuna LiDAR and IR sensors for obstacle detection, implemented PD control loops for motor and steering actuation, and coordinated communication between dual microcontrollers via a custom CAN network, both of which run a custom RTOS for real-time task scheduling.",
     "techStack": ["MSPM0", "TFLuna LiDAR", "CAN Bus", "PD Control", "Custom RTOS", "C"],
     "githubLink": "https://github.com/micade145/ECE445M_Robot/tree/main",
     "demoLink": "",
@@ -29,7 +29,7 @@
   {
     "id": "lc3-pipeline-processor",
     "title": "Fully-Pipelined LC-3 Processor Simulation",
-    "description": "A 5-stage pipelined software simulation of the LC-3 microprocessor architecture, accurately modeling clock-cycle timing and state transitions. Implemented data and control hazard handling through data-forwarding and intelligent stalling to ensure correct instruction execution.",
+    "description": "A 5-stage pipelined software simulation of the LC-3 microprocessor architecture designed in C, accurately modeling clock-cycle timing and state transitions. Implemented data and control hazard handling through data-forwarding and intelligent stalling to ensure correct instruction execution.",
     "techStack": ["C", "Computer Architecture", "Pipeline Simulation", "Processor Design"],
     "githubLink": "https://github.com/aidangonzales/ECE-460N/tree/main/lab6",
     "demoLink": "",
